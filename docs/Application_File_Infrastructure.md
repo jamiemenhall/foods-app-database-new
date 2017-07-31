@@ -59,12 +59,12 @@ foods-app-database File Structure
 | app/utils.py                 | This file contains generic python class wrappers. |
 | app/scrape.py                | This file contains webscraping functions. |
 | app/manage.py                | This file contains scripts that run database initiations, migrations, and upgrades. |
-| docs                         | Description |
-| docs/Installation.md         | Description |
-| docs/Application_File_Infrastructure.md | Description |
+| docs                         | This folder contains documentation on installation and development
+| docs/Installation.md         | This file describes how to set up a machineto run foods-app-database. 
+| docs/Application_File_Infrastructure.md | This file describes the file organization. |
 | docs/Develop.md              | Description |
 | .gitignore                   | Description |
 | tests                        | Description |
 | api                          | Description |
 | DOCKERFILE                   | Description |
-| README.md                    | Description |
+| README.md                    | This file contains the summary of this application
