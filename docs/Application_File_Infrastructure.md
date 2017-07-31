@@ -1,3 +1,4 @@
+```
 foods-app-database File Structure
 ├── requirements.txt
 ├── run.py
@@ -33,6 +34,7 @@ foods-app-database File Structure
 ├── api
 ├── DOCKERFILE
 └── README.md
+```
 
 | Items                        | Description                                              |
 | :--------------------------- | :------------------------------------------------------- |
