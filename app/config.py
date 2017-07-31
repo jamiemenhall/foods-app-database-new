@@ -1,11 +1,11 @@
-from food-app-database.instances import config
+from instance import config
 
 class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
-    SQLALCHEMY_DATABASE_URI =
+    SQLALCHEMY_DATABASE_URI = DATABASE_URL
 
 class ProductionConfig(Config):
     DEBUG = True

@@ -1,35 +1,38 @@
 -------------------------------
-RESOURCES
+# RESOURCES
+### Flask Intro
+1. https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+2. https://pythonspot.com/en/flask-web-app-with-python/
 
-Scrapy vs beautifulsoup
-https://hexfox.com/p/scrapy-vs-beautifulsoup/
+### Postgres Intro
+1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
 
-FLASK
-https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+### Flask and Postgres
+1. https://www.theodo.fr/blog/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/
+2. http://newcoder.io/scrape/intro/
+3. http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/
+4. http://www.vertabelo.com/blog/technical-articles/web-app-development-with-flask-sqlalchemy-bootstrap-part-2
+5. http://www.patricksoftwareblog.com/database-using-postgresql-and-sqlalchemy/
 
-POSTGRES
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+### Directory structures for large flask apps
+1. https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
+2. http://exploreflask.com/en/latest/organizing.html
 
-flask
-https://pythonspot.com/en/flask-web-app-with-python/
+### Webscraping: scrapy vs beautifulsoup
+1. https://hexfox.com/p/scrapy-vs-beautifulsoup/
 
-flask to docker
-http://containertutorials.com/docker-compose/flask-compose.html
+### Flask and Docker
+1. http://containertutorials.com/docker-compose/flask-compose.html
 
-flask and postgres
-https://www.theodo.fr/blog/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/
-http://newcoder.io/scrape/intro/
-http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/
-http://www.vertabelo.com/blog/technical-articles/web-app-development-with-flask-sqlalchemy-bootstrap-part-2
+### Packaging and Distributing Applications
+1. https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-python-applications
 
-Directory structures for large flask apps
-
-https://www.digitalocean.com/community/tutorials/
-how-to-structure-large-flask-applications
-
-http://exploreflask.com/en/latest/organizing.html
-
-
+# TODO
+1. Relations for models.py
+2. Module calling for __init__.py
+3. Finish setup.py
+4. Finish run.py
+5. Fill out static and templates
 
 
 

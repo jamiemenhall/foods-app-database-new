@@ -103,13 +103,15 @@ $ cd ~/foods-app-database/app/static/js
 $ touch style.js bootstrap.js
 ```
 
-2.
+2. 
 
 -------------------------------
 # INITIALIZE DATABASE
 
 1. initialize database
 
+```
 $ python manage.py db init
 $ python manage.py db migrate
 $ python manage.py db upgrade
+```
