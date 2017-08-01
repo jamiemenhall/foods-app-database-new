@@ -14,11 +14,12 @@ $ sudo apt update
 $ sudo apt install pycharm-community
 $ sudo apt install git
 
-$ git config --global user.name “francisglee” # set github username
-$ git config --global user.email “francis.g.lee@gmail.com” # set github user email
+$ git config --global user.name “jamiemenhall” # set github username
+$ git config --global user.email “jamiemehall@mac.com” # set github user email
 $ git config --global push.default simple
 $ git config --global credential.helper cache # set default password keeper
-$ git remote origin https://www.github.com/francisglee/foods-app-database.git # set git remote
+$ git remote origin https://www.github.com/jamiemenhall/foods-app-database-new
+.git # set git remote
 $ git remote -v # check git remote
 
 $ sudo apt install python-dev
@@ -60,8 +61,9 @@ $ sudo apt-get install postgresql postgresql-contrib libpq-dev
 ```
 $ sudo -i -u postgres psql
 postgres$ ALTER USER postgres WITH PASSWORD 'password'; # give master-user, postgres, a password
-postgres$ CREATE USER ifrancium WITH PASSWORD 'password'; # create admin user
-postgres$ CREATE DATABASE usda OWNER ifrancium ENCODING 'utf-8'; # create database
+postgres$ CREATE USER jmenhall WITH PASSWORD 'password'; # create admin user
+postgres$ CREATE DATABASE usda OWNER jmenhall ENCODING 'utf-8'; # create 
+database
 ```
 
 -------------------------------------------------------------

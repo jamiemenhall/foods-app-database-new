@@ -1,4 +1,4 @@
-DATABASE_URL = 'postgresql://ifrancium:password@localhost/usda'
+DATABASE_URL = 'postgresql://jemnhall:password@localhost/usda'
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 # variables for the USDA search API
