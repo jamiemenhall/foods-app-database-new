@@ -1,6 +1,6 @@
 # The Hunger Games: Jamie's Revenge
 
-The Ultimate Foods App Database
+The Ultimate Foods App Database connected to a Front End UPC scanner 
 
 ## Getting Started
 
@@ -122,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 3. Finish setup.py
 4. Finish run.py
 5. Fill out static and templates
-
+6. 
 
 
 
