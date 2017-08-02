@@ -4,6 +4,8 @@ foods-app-database File Structure
 ├── run.py
 ├── setup.py
 ├── instance
+     ├── __init__.py
+     ├── __init__.py
      └── config.py
 ├── app
      ├── __init__.py
