@@ -102,6 +102,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 3. http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/
 4. http://www.vertabelo.com/blog/technical-articles/web-app-development-with-flask-sqlalchemy-bootstrap-part-2
 5. http://www.patricksoftwareblog.com/database-using-postgresql-and-sqlalchemy/
+6. https://stackoverflow.com/questions/40971413/how-to-read-data-from-postgresql-in-python-using-flask-and-sqlalchemy
 
 ### Directory structures for large flask apps
 1. https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
