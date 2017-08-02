@@ -118,6 +118,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### Packaging and Distributing Applications
 1. https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-python-applications
+2. http://blog.sampingchuang.com/structure-a-large-flask-api-backend-app/
 
 # TODO
 1. Relations for models.py
