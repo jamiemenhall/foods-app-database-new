@@ -1,32 +1,28 @@
-import os
-from airtng_flask.config import config_env_files
+#################
+#### imports ####
+#################
+
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 
-from flask.ext.bcrypt import Bcrypt
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask_login import LoginManager
+################
+#### config ####
+################
 
-db = SQLAlchemy()
-bcrypt = Bcrypt()
-login_manager = LoginManager()
+app = Flask(__name__, instance_relative_config=True)
+app.config.from_pyfile('flask.cfg')
 
+db = SQLAlchemy(app)
 
-def create_app(config_name='development', p_db=db, p_bcrypt=bcrypt, p_login_manager=login_manager):
-    new_app = Flask(__name__)
-    config_app(config_name, new_app)
+####################
+#### blueprints ####
+####################
 
-    p_db.init_app(new_app)
-    p_bcrypt.init_app(new_app)
-    p_login_manager.init_app(new_app)
-    p_login_manager.login_view = 'register'
-    return new_app
+from project.users.views import users_blueprint
+from project.recipes.views import recipes_blueprint
 
-
-def config_app(config_name, new_app):
-    new_app.config.from_object(config_env_files[config_name])
-
+# register the blueprints
+app.register_blueprint(users_blueprint)
+app.register_blueprint(recipes_blueprint)
 
 app = create_app()
-
-import airtng_flask.views
-

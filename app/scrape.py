@@ -42,3 +42,5 @@ def get_ndbno_full_report(report_api_request, ndbno_id):
     full_report = requests.get(report_api_request)
     full_report_json = full_report.json()
     return full_report_json
+
+def create_food_json(full_report_json, )

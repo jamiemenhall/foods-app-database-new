@@ -3,26 +3,29 @@ from app import app
 
 db = SQLAlchemy(app)
 
+
 class food_desc(db.Model):
     __tablename__ = 'food_description'
 
-    food_id = db.Column(db.String(), primary_key=True)
+    food_id = db.Column(db.Integer(), primary_key=True)
+    ndbno_id = db.Column(db.String())
     short_desc = db.Column(db.String())
     food_cat = db.Column(db.String())
 
-    def __init__(self, food_id, short_desc, food_cat):
-        self.food_id = food_id
+    def __init__(self, ndbno_id, short_desc, food_cat):
+        self.ndbno_id = ndbno_id
         self.short_desc = short_desc
         self.food_cat = food_cat
 
     def __repr__(self):
         return '<id {}>'.format(self.food_id)
 
+
 class food_units(db.Model):
     __tablename__ = 'food_units'
 
     food_id = db.Column(db.String(), primary_key=True)
-    unit_desc = db.Column(db,String())
+    unit_desc = db.Column(db, String())
     grams_per_unit = db.Column(db.Float)
 
     def __init__(self, food_id, unit_desc, grams_per_unit):
@@ -32,6 +35,7 @@ class food_units(db.Model):
 
     def __repr__(self):
         return '<id {}>'.format(self.food_id)
+
 
 class nut_per_100_g(db.Model):
     __tablename__ = 'nutients_per_100_grams'
@@ -74,13 +78,15 @@ class nut_per_100_g(db.Model):
     def __init__(self, food_id, kcal, protein_g, total_fat_g, total_carb_g,
                  total_diet_fiber_g, calcium_mg, iron_mg, magnesium_mg,
                  phosphorus_mg, potassium_mg, sodium_mg, zinc_mg, copper_mg,
-                 manganese_mg, selenium_mcg, vitamin_c_mg, thiamin_mg, riboflavin_mg,
-                 niacin_mg, pantothenic_acid_mg, vitamin_b6_mg, total_folate_mg,
+                 manganese_mg, selenium_mcg, vitamin_c_mg, thiamin_mg,
+                 riboflavin_mg,
+                 niacin_mg, pantothenic_acid_mg, vitamin_b6_mg,
+                 total_folate_mg,
                  vitamin_b12_mcg, vitamin_d_mcg, vitamin_e_mg, vitamin_k_mcg,
-                 total_sat_fat_g, total_monounsat_fat_g, total_poly_insat_fat_g,
+                 total_sat_fat_g, total_monounsat_fat_g,
+                 total_poly_insat_fat_g,
                  total_trans_fat_g, cholesterol_mg, total_sugar_g,
                  omega_3_fatty_acids_g):
-
         self.food_id = food_id
         self.kcal = kcal
         self.protein_g = protein_g
@@ -118,6 +124,7 @@ class nut_per_100_g(db.Model):
 
     def __repr__(self):
         return '<id {}>'.format(self.food_id)
+
 
 class food_upc(db.Model):
     __tablename__ = 'food_upc'

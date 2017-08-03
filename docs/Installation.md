@@ -108,12 +108,14 @@ $ touch style.js bootstrap.js
 2. 
 
 -------------------------------
-# INITIALIZE DATABASE
+# RUN APP
 
 1. initialize database
 
 ```
-$ python manage.py db init
-$ python manage.py db migrate
-$ python manage.py db upgrade
+$ python manage.py db init # creates migrate folder with database schema
+$ python manage.py db migrate # d   umps instance of database
+$ python manage.py db upgrade # 
+
 ```
+2. 
