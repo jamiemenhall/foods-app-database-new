@@ -84,6 +84,8 @@ $ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate requests
 $ pip freeze > requirements.txt
 ```
 
+3. 
+
 -------------------------------------------------------------
 # CREATE FILE STRUCTURE
 
