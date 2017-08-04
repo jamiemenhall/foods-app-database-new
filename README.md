@@ -105,7 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 6. https://stackoverflow.com/questions/40971413/how-to-read-data-from-postgresql-in-python-using-flask-and-sqlalchemy
 7. http://flask-sqlalchemy.pocoo.org/2.1/quickstart/
 8. http://kronosapiens.github.io/blog/2014/07/29/setting-up-unit-tests-with-flask.html
-9. https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+9	. https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
 
 
 ### Directory structures for large flask apps

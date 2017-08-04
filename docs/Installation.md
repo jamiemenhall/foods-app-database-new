@@ -121,7 +121,11 @@ $ python manage.py db migrate # dumps instance of database
 $ python manage.py db upgrade # 
 
 ```
-2. python manage.py runserver # starts up the server
+2. Run Server
+
+```
+$ python manage.py runserver # starts up the server
+```
 -------------------------------------------------
 # IMPORT AND EXPORT POSTGRESQL DATABASE
 
@@ -134,3 +138,5 @@ $ pg_dump -U USERNAME DBNAME > dbexport.pgsql
 ```
 $ psql -U USERNAME DBNAME < dbexport.pgsql
 ```
+
+3. Upload from CSV file
