@@ -90,11 +90,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Resources
 ### Flask Intro
-1. https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
-2. https://pythonspot.com/en/flask-web-app-with-python/
+1. https://pythonspot.com/en/flask-web-app-with-python/
 
 ### Postgres Intro
 1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+2. https://gist.github.com/apolloclark/ea5466d5929e63043dcf
 
 ### Flask and Postgres
 1. https://www.theodo.fr/blog/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/
@@ -104,6 +104,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 5. http://www.patricksoftwareblog.com/database-using-postgresql-and-sqlalchemy/
 6. https://stackoverflow.com/questions/40971413/how-to-read-data-from-postgresql-in-python-using-flask-and-sqlalchemy
 7. http://flask-sqlalchemy.pocoo.org/2.1/quickstart/
+8. http://kronosapiens.github.io/blog/2014/07/29/setting-up-unit-tests-with-flask.html
+9. https://realpython.com/blog/python/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
 
 
 ### Directory structures for large flask apps

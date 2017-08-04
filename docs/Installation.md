@@ -18,7 +18,8 @@ $ git config --global user.name “jamiemenhall” # set github username
 $ git config --global user.email “jamiemehall@mac.com” # set github user email
 $ git config --global push.default simple
 $ git config --global credential.helper cache # set default password keeper
-$ git remote origin https://www.github.com/jamiemenhall/foods-app-database-new
+$ git remote origin https://www.github
+.com/jamiemenhall/foods-app-madatabase-new
 .git # set git remote
 $ git remote -v # check git remote
 
