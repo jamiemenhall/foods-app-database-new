@@ -122,3 +122,15 @@ $ python manage.py db upgrade #
 
 ```
 2. python manage.py runserver # starts up the server
+-------------------------------------------------
+# IMPORT AND EXPORT POSTGRESQL DATABASE
+
+1. Dump PostgreSQL
+```
+$ pg_dump -U USERNAME DBNAME > dbexport.pgsql
+```
+
+2. Upload from .pgsql file
+```
+$ psql -U USERNAME DBNAME < dbexport.pgsql
+```
