@@ -81,7 +81,7 @@ $ mkvirtualenv --python=/usr/bin/python3 food-env
 2. Install python packages
 
 ```
-$ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate requests
+$ pip install Flask psycopg2 Flask-SQLAlchemy Flask-Migrate Flask-Script requests
 $ pip freeze > requirements.txt
 ```
 
@@ -117,8 +117,8 @@ $ touch style.js bootstrap.js
 
 ```
 $ python manage.py db init # creates migrate folder with database schema
-$ python manage.py db migrate # d   umps instance of database
+$ python manage.py db migrate # dumps instance of database
 $ python manage.py db upgrade # 
 
 ```
-2. 
+2. python manage.py runserver # starts up the server
